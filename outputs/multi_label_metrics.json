@@ -1,0 +1,78 @@
+{
+  "project": "Project 93: Environmental Sound Tagging (Multi-Label)",
+  "taxonomy": [
+    "dog_bark",
+    "car_passing",
+    "people_talking",
+    "siren",
+    "bird_singing",
+    "rain_shower",
+    "footsteps",
+    "wind_rustle"
+  ],
+  "classification": {
+    "mean_average_precision_map": 96.7,
+    "macro_f1_pct": 96.04,
+    "micro_f1_pct": 95.05,
+    "macro_precision_pct": 94.11,
+    "macro_recall_pct": 99.48,
+    "exact_match_ratio_pct": 77.5,
+    "hamming_loss": 0.0281,
+    "per_class": {
+      "dog_bark": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "average_precision": 100.0
+      },
+      "car_passing": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "average_precision": 100.0
+      },
+      "people_talking": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "average_precision": 100.0
+      },
+      "siren": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "average_precision": 100.0
+      },
+      "bird_singing": {
+        "precision": 100.0,
+        "recall": 95.83,
+        "f1_score": 97.87,
+        "average_precision": 100.0
+      },
+      "rain_shower": {
+        "precision": 96.15,
+        "recall": 100.0,
+        "f1_score": 98.04,
+        "average_precision": 98.56
+      },
+      "footsteps": {
+        "precision": 100.0,
+        "recall": 100.0,
+        "f1_score": 100.0,
+        "average_precision": 100.0
+      },
+      "wind_rustle": {
+        "precision": 56.76,
+        "recall": 100.0,
+        "f1_score": 72.41,
+        "average_precision": 75.02
+      }
+    }
+  },
+  "latency_benchmark": {
+    "mean_latency_ms": 33.18,
+    "real_time_factor_rtf": 0.0111,
+    "speedup_factor": 90.4,
+    "cpu_headroom_pct": 98.9
+  }
+}
